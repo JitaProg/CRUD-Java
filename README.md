@@ -1,70 +1,53 @@
-📌 Proyecto CRUD en Java (NetBeans)
-📝 Descripción
-Este proyecto es una aplicación de escritorio desarrollada en Java utilizando Swing y el entorno NetBeans.
-Su objetivo es gestionar una lista de elementos mediante un sistema CRUD completo:
+# 📌 Proyecto CRUD en Java (NetBeans)
 
-Crear nuevos registros
+## 📝 Descripción  
+Este proyecto es una aplicación de escritorio desarrollada en **Java** utilizando **Swing** y el IDE **NetBeans**.  
+Permite gestionar una lista de elementos mediante un sistema **CRUD completo**:
 
-Leer/Buscar elementos existentes
+- **Crear** nuevos registros  
+- **Leer / Buscar** elementos  
+- **Actualizar** información existente  
+- **Eliminar** registros  
 
-Actualizar información
+La interfaz gráfica facilita todas las operaciones de forma intuitiva.
 
-Eliminar registros
+---
 
-La interfaz gráfica permite realizar todas las operaciones de forma intuitiva y visual.
+## 🚀 Funcionalidades principales
 
-🚀 Funcionalidades principales
-✔️ Añadir elementos
+### ✔️ Añadir elementos  
 Formulario para introducir nuevos datos y agregarlos a la lista.
 
-✔️ Modificar elementos
+### ✔️ Modificar elementos  
 Permite seleccionar un registro existente y actualizar su información.
 
-✔️ Eliminar elementos
-Opción para borrar cualquier elemento de la tabla.
+### ✔️ Eliminar elementos  
+Opción para borrar cualquier elemento de la tabla o lista.
 
-✔️ Buscar elementos
-Filtro o campo de búsqueda para localizar registros por nombre, email, tipo, etc. (según tu implementación).
+### ✔️ Buscar elementos  
+Campo de búsqueda para localizar registros rápidamente.
 
-✔️ Interfaz gráfica (GUI)
-Construida con Java Swing, organizada mediante paneles, layouts y componentes visuales.
+### ✔️ Interfaz gráfica (GUI)  
+Construida con **Java Swing**, organizada mediante paneles y layouts.
 
-🛠️ Tecnologías utilizadas
-Java 8+
+---
 
-Swing (GUI)
+## 🛠️ Tecnologías utilizadas
 
-NetBeans como IDE
+- **Java 8+**
+- **Swing (GUI)**
+- **NetBeans**
+- **ArrayList** u otra estructura para almacenar datos
+- **Programación orientada a objetos**
 
-ArrayList para la gestión interna de datos (o la estructura que uses)
+---
 
-MVC básico (si lo aplicas)
+## 📂 Estructura del proyecto (ejemplo)
 
-📂 Estructura del proyecto
-Código
 /src
-   /paquete_principal
+   /act16
       - Main.java
       - VentanaPrincipal.java
-      - FormularioUsuario.java
-      - Usuario.java
-      - Alumno.java (si aplica)
-      - Profesor.java (si aplica)
-(Adáptalo a tus clases reales)
-
-▶️ Ejecución
-Clona el repositorio:
-
-Código
-git clone https://github.com/tuusuario/tu-repo.git
-Abre el proyecto en NetBeans
-
-Ejecuta la clase Main o la ventana principal
-
-📌 Estado del proyecto
-✔️ Funcional
-🔧 Mejoras futuras posibles: validaciones, persistencia en fichero/BD, filtros avanzados, etc.
-
-👤 Autor
-Borja Lozano Porcel  
-Junior Web Developer & IT Support
+      - Controlador.java
+      - Modelo.java
+      - Elemento.java
